@@ -89,3 +89,81 @@ p, #footer {
     bottom: 0;
     left: 0;
 }
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 8px;
+    }
+
+    #hero {
+        margin: 8rem auto ;
+    }
+    
+    #hero img {
+        margin-bottom: 5rem;
+        width: 43vw;
+    }
+    
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    
+        margin: 0 auto 5rem;
+    }
+    
+    #hero p {
+        width: 70vw;
+        margin: auto;
+        font-size: 1.8rem;
+    }
+    
+    #hero p:nth-of-type(1) {
+        line-height: 3rem;
+        margin: 0 auto;
+    }
+    
+    #hero p:nth-of-type(2) {
+        line-height: 3rem;
+        margin: 4rem auto 8rem;
+    }
+    
+    p, #footer {
+        font-size: 2rem;
+    }
+    
+    #footer a + a {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 390px) {
+    #hero p {
+        width: 90vw;
+    }
+
+    .line {
+        width: 85vw;
+    }
+
+    #footer a + a {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 285px) {
+    #footer {
+        text-align: center;
+        align-items: center;
+    }
+
+    #footer a, #footer a + a {
+        display: block;
+        margin: 0;
+    }
+}
+
+@media (max-width: 230px) {
+    #footer {
+        margin-bottom: 20vw;
+    }
+}

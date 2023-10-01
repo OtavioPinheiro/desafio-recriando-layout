@@ -60,8 +60,12 @@ span, a {
     font-weight: bold;
 }
 
-#footer {
-    color: var(--dark-purple);
+a {
+    text-decoration: none;
+}
+
+a, a span:hover {
+    color: var(--pink);
 }
 
 p, #footer {
@@ -84,8 +88,4 @@ p, #footer {
     width: 100%;
     bottom: 0;
     left: 0;
-}
-
-a {
-    text-decoration: none;
 }
